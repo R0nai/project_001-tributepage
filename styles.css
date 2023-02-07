@@ -1,0 +1,124 @@
+
+:root {
+  --hope-red: rgb(215,26,33);
+  --hope-cream: rgb(253,227,166);
+  --hope-dark-blue: rgb(0,50,77);
+  --hope-light-blue: rgb(112,157,176);
+}
+
+* {
+  color: var(--hope-light-blue);
+  text-align: center;
+}
+
+@media (max-width:800px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+h1 {
+  color: var(--hope-red);
+  font-size: 6em;
+  font-weight: bolder;
+  font-family: 'Comic Neue', cursive;;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+
+
+
+main {
+    margin: 16px;
+    border-radius: 8px;
+    background-color: var(--hope-cream);
+
+    padding: 8px 32px;
+}
+
+main > p {
+  color: var(--hope-dark-blue);
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#img-div {
+    margin: 0;
+    background-color: var(--hope-dark-blue);
+    border-radius: 8px 8px 0 0;
+    padding: 32px;
+  }
+  
+img {
+    object-fit: cover;
+    max-width: 50%;
+    display:block;
+    margin: 0 auto;
+}
+
+
+figcaption {
+    margin:16px;
+    font-size: 1.2em;
+}
+  
+#title {
+    padding: 8px;
+}
+
+#tribute-info {
+  margin: 0 auto;
+  background-color: var(--hope-dark-blue);
+  padding: 16px;
+  border-radius: 0 0 8px 8px;
+}
+
+
+ul {
+  max-width: 550px;
+  margin: 16px auto;
+}
+
+ul li{
+  text-align: left;
+  padding: 4px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+blockquote {
+  max-width: 440px;
+  margin: 32px auto;
+  font-style: italic;
+
+  
+}
+
+blockquote, blockquote p, cite{
+  text-align: left;
+  line-height: 1.6em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  margin: 16px;
+  font-size: 1.4em;
+}
+
+a {
+  color: var(--hope-cream);
+}
+
+li > a {
+  color: var(--hope-light-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
